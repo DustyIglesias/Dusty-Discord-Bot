@@ -1,3 +1,4 @@
 prefix: "$"
-testguild: "server id"
-tokens:"bot token"
+testguild: test_guild_id_here
+tokens:
+    discord: discord_bot_token_here
