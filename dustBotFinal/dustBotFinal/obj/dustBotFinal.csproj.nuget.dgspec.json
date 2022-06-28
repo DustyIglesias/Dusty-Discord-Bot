@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\bot\\New folder (3)\\final\\final\\dustBotFinal.csproj": {}
+  },
+  "projects": {
+    "F:\\bot\\New folder (3)\\final\\final\\dustBotFinal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\bot\\New folder (3)\\final\\final\\dustBotFinal.csproj",
+        "projectName": "dustBotFinal",
+        "projectPath": "F:\\bot\\New folder (3)\\final\\final\\dustBotFinal.csproj",
+        "packagesPath": "C:\\Users\\atmeh\\.nuget\\packages\\",
+        "outputPath": "F:\\bot\\New folder (3)\\final\\final\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\atmeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "Discord.Net.Interactions": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Yaml": {
+              "target": "Package",
+              "version": "[2.0.0-preview2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
